@@ -3,13 +3,15 @@ import data from '../components/accordian/data';
 
 import './App.css'
 import Accordian from '../components/accordian/Accordian'
+import RandomColor from '../components/accordian/Randomcolor/Randomcolor';
 
 function App() {
  
 
   return (
     <div className='cart'>
-      <Accordian/>
+      {/* <Accordian/> */}
+      <RandomColor/>
       
     </div>
   )
